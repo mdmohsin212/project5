@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("pic/biography-bg.png");
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  background:#042331;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.navbar header {
+  font-size: 30px;
+  color: rgb(170, 110, 110);
+  font-weight: bold;
+  user-select: none;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul a {
+  font-size: 25px;
+  color: white;
+  transition: .4s;
+}
+
+.navbar ul a:hover {
+  color: #0a5275;
+}
+
+#check {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  label #btn {
+    display: block;
+  }
+}
+
+section {
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+}
+
+.phone-details {
+  text-align: center;
+}
+
+.phone-details img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #042331;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.cart-option {
+  text-align: center;
+}
+.cart-option button {
+  background-color: #042331;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-option button:hover {
+  background-color: #0a5275;
+}
+.about{
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 100px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-form {
+  text-align: center;
+  padding: 30px;
+}
+
+.login-form h2 {
+  color: #042331;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #042331;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #042331;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0a5275;
+}
+.itm{
+  margin-left: 700px;
+}
